@@ -1,6 +1,6 @@
 node{
     
-  stage('clone java project') {
+  stage('clone') {
     git 'https://github.com/vtvc/mahalogin.git'
   }
   
