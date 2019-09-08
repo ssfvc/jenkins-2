@@ -5,7 +5,7 @@ node{
   }
   
    stage('maven targets') {
-    sh label: '', script: 'mvn install'
+    bat label: '', script: 'mvn install'
    }
     
     
